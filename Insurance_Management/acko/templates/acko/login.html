@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin-top: 0;
+            margin-right: 0;
+        }
+
+        body {
+            display: flex;
+            
+        }
+
+        form {
+            width: 300px;
+            height: 250px;
+            margin: auto;
+            text-align: center;
+            align-content: center;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+
+        form>input{
+            width: 250px;
+            height: 40px;
+            background-color: rgb(19, 196, 19);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+           
+        }
+
+        .login {
+            width: 700px;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+
+        .login>p {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+        }
+
+        .login>img {
+            margin-left: 35%;
+        }
+
+        .login>h2 {
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+
+        .policy>img {
+            width: 250px;
+            margin-top: 10%;
+            margin-left: 31.5%;
+        }
+
+        .policy {
+
+            width: 1230px;
+            height: 730px;
+            margin-left: 18%;
+            background-color: rgb(242, 239, 249);
+        }
+
+        .policy>h1,
+        h2 {
+            text-align: center;
+            font-weight: lighter;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+        }
+
+        .policy>h4 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            margin-top: 60px;
+        }
+
+        .account {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .account>h4 {
+            font-weight: lighter;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEzIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTEzIDM2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8bWFzayBpZD0ibWFzazBfMTI5M18yMjA5MCIgc3R5bGU9Im1hc2stdHlwZTphbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjExMyIgaGVpZ2h0PSIzNiI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMCAwSDExMi41NTFWMzZIMEwwIDBaIiBmaWxsPSJ3aGl0ZSIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFzazBfMTI5M18yMjA5MCkiPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTk0LjU0NTUgMEgxOC4wMDU4QzguMDYxMTYgMCAwIDguMTA1ODMgMCAxOC4xMDVDMCAyOC4xMDQxIDcuODUxODMgMzYuMDAwNiAxNy43OTY0IDM2LjAwMDZIOTQuMzM2MkMxMDQuMjggMzYuMDAwNiAxMTIuNTUxIDI4LjEwNDEgMTEyLjU1MSAxOC4xMDVDMTEyLjU1MSA4LjEwNTgzIDEwNC40OSAwIDk0LjU0NTUgMFoiIGZpbGw9IiM3QzQ3RTEiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05My44NDA1IDMxLjU1MTdDODYuNDQxIDMxLjU1MTcgODAuNDIxNSAyNS40OTg4IDgwLjQyMTUgMTguMDU4NEM4MC40MjE1IDEwLjYxNzkgODYuNDQxIDQuNTY1MDYgOTMuODQwNSA0LjU2NTA2QzEwMS4yMzkgNC41NjUwNiAxMDcuMjU5IDEwLjYxNzkgMTA3LjI1OSAxOC4wNTg0QzEwNy4yNTkgMjUuNDk4OCAxMDEuMjM5IDMxLjU1MTcgOTMuODQwNSAzMS41NTE3WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05My44NDEgMjcuMjYwM0M4OC43ODYxIDI3LjI2MDMgODQuNjg4NiAyMy4xMzk2IDg0LjY4ODYgMTguMDU3MkM4NC42ODg2IDEyLjk3NDMgODguNzg2MSA4Ljg1NDEzIDkzLjg0MSA4Ljg1NDEzQzk4Ljg5NTQgOC44NTQxMyAxMDIuOTkzIDEyLjk3NDMgMTAyLjk5MyAxOC4wNTcyQzEwMi45OTMgMjMuMTM5NiA5OC44OTU0IDI3LjI2MDMgOTMuODQxIDI3LjI2MDNaIiBmaWxsPSIjNDRDQjg2Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTguNjkwNyAyNy4yMDUzQzEzLjY3MjcgMjcuMjA1MyA5LjU5MSAyMy4xMDA1IDkuNTkxIDE4LjA1NTNDOS41OTEgMTMuMDA5NSAxMy42NzI3IDguOTA0NjMgMTguNjkwNyA4LjkwNDYzQzIzLjcwODEgOC45MDQ2MyAyNy43OTAzIDEzLjAwOTUgMjcuNzkwMyAxOC4wNTUzQzI3Ljc5MDMgMjMuMTAwNSAyMy43MDgxIDI3LjIwNTMgMTguNjkwNyAyNy4yMDUzWk0zMi4wOTk0IDE4LjA1NTdDMzIuMDk5NCAxMC42MjI5IDI2LjA4NTkgNC41NzU1NiAxOC42OTQxIDQuNTc1NTZDMTEuMzAyMiA0LjU3NTU2IDUuMjg4NyAxMC42MjI5IDUuMjg4NyAxOC4wNTU3QzUuMjg4NyAyNS40ODggMTEuMzAyMiAzMS41MzU0IDE4LjY5NDEgMzEuNTM1NEMyMi4yMDM4IDMxLjUzNTQgMjUuNDAxNCAzMC4xNzE4IDI3Ljc5MzcgMjcuOTQ0NVYyOS4zNzA5QzI3Ljc5MzcgMzAuNTY2IDI4Ljc1NzggMzEuNTM1NCAyOS45NDY5IDMxLjUzNTRDMzEuMTM1NCAzMS41MzU0IDMyLjA5OTQgMzAuNTY2IDMyLjA5OTQgMjkuMzcwOVYxOC40ODgyQzMyLjA5OTQgMTguNDQ1NiAzMi4wOTc4IDE4LjQwNTEgMzIuMDk1NiAxOC4zNjY4QzMyLjA5NzggMTguMjYzNSAzMi4wOTk0IDE4LjE1OTYgMzIuMDk5NCAxOC4wNTU3WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00OC40MDU5IDMxLjU1MThDNDAuOTYyOSAzMS41NTE4IDM0LjkwNyAyNS40NjIzIDM0LjkwNyAxNy45NzgyQzM0LjkwNyAxMC40OTI5IDQwLjk2MjkgNC40MDQ0OCA0OC40MDU5IDQuNDA0NDhDNTEuNzQzOCA0LjQwNDQ4IDU0Ljk0ODQgNS42MzkgNTcuNDI4MyA3Ljg4MTE0QzU4LjMxNzkgOC42ODUzOCA1OC4zOTA3IDEwLjA2MiA1Ny41OTE1IDEwLjk1NjVDNTYuNzkxNiAxMS44NTE1IDU1LjQyMiAxMS45MjQyIDU0LjUzMyAxMS4xMkM1Mi44NDg2IDkuNTk3ODcgNTAuNjcyNiA4Ljc1OTczIDQ4LjQwNTkgOC43NTk3M0M0My4zNTA5IDguNzU5NzMgMzkuMjM4MiAxMi44OTQ3IDM5LjIzODIgMTcuOTc4MkMzOS4yMzgyIDIzLjA2MTEgNDMuMzUwOSAyNy4xOTY2IDQ4LjQwNTkgMjcuMTk2NkM1MC42NzQzIDI3LjE5NjYgNTIuODUxMyAyNi4zNTczIDU0LjUzNTggMjQuODMzMUM1NS40MjQ3IDI0LjAyODMgNTYuNzk0NCAyNC4xMDEgNTcuNTk0MiAyNC45OTQ5QzU4LjM5NDUgMjUuODg4OCA1OC4zMjIyIDI3LjI2NTUgNTcuNDMzOCAyOC4wNzAyQzU0Ljk1MjIgMzAuMzE1MSA1MS43NDY1IDMxLjU1MTggNDguNDA1OSAzMS41NTE4WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04MC42MDg2IDI3LjU5MjlMNjguOTkxNSAxNy43OTI4TDgwLjYwODYgOC4xOTU0OEM4MS41MjQyIDcuNDMyNzkgODEuNjUwOSA2LjA2ODE1IDgwLjg5MTkgNS4xNDc0NkM4MC4xMzI5IDQuMjI3MzEgNzguNzc1MiA0LjA5OTkyIDc3Ljg2MDEgNC44NjMxNkw2NS4yNzM2IDE1LjM1ODJWNi41Mjk1OUM2NS4yNzM2IDUuMzMzODkgNjQuMzA5NiA0LjM2NTA5IDYzLjEyMDUgNC4zNjUwOUM2MS45MzE5IDQuMzY1MDkgNjAuOTY3OSA1LjMzMzg5IDYwLjk2NzkgNi41Mjk1OVYyOS4yNTg4QzYwLjk2NzkgMzAuNDU0NSA2MS45MzE5IDMxLjQyMzkgNjMuMTIwNSAzMS40MjM5QzY0LjMwOTYgMzEuNDIzOSA2NS4yNzM2IDMwLjQ1NDUgNjUuMjczNiAyOS4yNTg4VjIwLjQzMDJMNzcuODYwMSAzMC45MjUyQzc4LjI2MjUgMzEuMjYwNCA3OC43NDkxIDMxLjQyMzkgNzkuMjMzNiAzMS40MjM5Qzc5Ljg1MTggMzEuNDIzOSA4MC40NjYyIDMxLjE1NzEgODAuODkxOSAzMC42NDA5QzgxLjY1MDkgMjkuNzIwOCA4MS41MjQyIDI4LjM1NjIgODAuNjA4NiAyNy41OTI5WiIgZmlsbD0id2hpdGUiLz4KPC9nPgo8L3N2Zz4K"
+            alt="acko logo">
+        <h2>Log in with your Credential</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{form.as_p}}
+            <input type="submit" value="Login">
+        </form>
+        <p>Don't have an account? <a href="{% url 'sign_up' %}">Register</a></p>
+    </div>
+    <div class="policy">
+        <img src="https://i.postimg.cc/Ls9kZMPF/Screenshot-18-8-2024-164832-www-acko-com.jpg' border='0' alt='Screenshot-18-8-2024-164832-www-acko-com"
+            alt="">
+        <h2>Take control of your <br>ACKO policy</h2>
+        <h4>Inside your account you can:</h4>
+        <div class="account">
+            <h4>File a claim</h4>
+            <h4>Manage your policy</h4>
+            <h4>View policy docs</h4>
+        </div>
+    </div>
+</body>
+
+</html>
